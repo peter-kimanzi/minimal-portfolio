@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arial' , sans-serif;
+    /* background-color: #878a8f; */
+    
+    
+}
+
+html {
+    overflow-x: hidden;
+    }
+body{
+    height: 100vh;
+    /* overflow-x: hidden; */background-color:#fff ;
+}
+
+
+#map{
+    height: 400px;
+    width: 70%;
+    position: relative;
+    top: 130px;
+ }
+
+ @media(max-width:900px){
+    #map{
+        height: 400px;
+        width: 100%;
+     }
+
+
+ }
+
+ @media(min-width:900px){
+     .contacttouch{
+        position: relative;
+        top: 200px;
+    }
+ }
+
+ .contactbody .text h1{
+    font-family: 'Arial' , sans-serif;
+     font-size: 8rem;
+     font-weight: 900;
+     position: absolute;
+     width: 10px;
+     top: 96px;
+     left: 655px;
+     -webkit-text-fill-color: transparent;
+     -webkit-text-stroke-width: 1px;
+     font-style:italic ;
+     color: rgb(0, 0, 0);
+ }
+
+ .form .kim{
+     position: relative;
+     top: -40px;
+ }
+
+.btn{
+    background: black;
+    border: none;
+}
+
+.btn:hover{
+    background: #017143;
+}
+
+form .text-black{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Arial' , sans-serif;
+}
+
+.tim{
+    margin-bottom: 70px;
+}
+
+.tim p{
+    font-family: 'Arial' , sans-serif;
+    font-size: 20px;
+}
+
+.text .links a{
+    color: #000;
+    font-weight: 600;
+}

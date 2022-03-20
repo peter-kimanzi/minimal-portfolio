@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arial' , sans-serif;
+    /* background-color: #878a8f; */
+    
+}
+
+html,body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/* header */
+
+.header{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+ 
+.inner-header{
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 100%;
+    width: 1250px;
+    display: block;
+
+}
+
+.logo-container{
+    color: #000;
+    /* float: right; */
+    height: 100%;
+    display: table;
+    margin-left: 150px;
+    position: relative;
+    left: -40px;
+}
+
+.logo-container h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "proxima-nova";
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Arial' , sans-serif;
+    cursor: pointer;
+    right: 50px;
+    position: relative;
+    letter-spacing: 0.7px;
+}
+.logo-container h2{
+    position: relative;
+    left: -294px;
+    top: 30px !important;
+}
+.logo-container p{
+    font-size:10px ;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0.5px;
+}
+
+
+.logo-container img{
+    height: 45px;
+    position: relative;
+    left: -195px;
+    top: 5px;
+    /* background: transparent; */
+}
+
+/* body */
+
+.heading{
+    /* height: 100vh; */
+    position: relative;
+    /* top: -70%; */
+    left: 50px;
+    width: 50%;
+}
+
+.heading h3{
+    color: #56595e;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+.heading h1{
+    font-weight: 900;
+    color: #000;
+    font-size: 5rem;
+}
+
+.heading p{
+    color: #56595e;
+    font-size: 20px;
+}
+.heading span{
+    position: relative;
+}
+.heading h5 a{
+    position: relative;
+    top: -33px;
+    left: 190px;
+    font-size:20px ;
+    font-weight: 900;
+    color: #000;
+}
+
+.heading span h4 a{
+    position: relative;
+    font-size:20px ;
+    font-weight: 900;
+    color: #000;
+}
+
+.heading h9{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+/* .rel{
+    position: relative;
+} */
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 00px);
+    /* z-index: -1; */
+}

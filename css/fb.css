@@ -1,0 +1,60 @@
+/* .containerp .images img{
+    width: 70vh;
+    height: 70vh;
+} */
+.containerp .images .im img{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.containerp .images  img{
+    width: 80vh;
+    height: 90vh;
+    position: relative;
+}
+
+@media(min-width:1000px){
+    .containerp .images .im img{
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        left: -200px;
+    }
+
+    .containerp .images .im img{
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        left: -200px;
+    }
+
+    .fbtitle{
+        position: relative;
+        top: 100px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        left: 700px;
+       
+    }
+}
+
+
+.fbtitle{
+    position: relative;
+    top: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.fbtitle h4{
+     font-size: 40px;
+}
+
+.fbtitle span{
+    position: absolute;
+    transform: rotate(270deg);
+    font-size:7rem ;
+    top: -40px;
+    left: 300px;
+}

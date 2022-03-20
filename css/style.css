@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arial' , sans-serif;
+    /* background-color: #878a8f; */
+    
+}
+
+html {
+    overflow-x: hidden;
+    }
+body{
+    height: 100vh;
+    /* overflow-x: hidden; */
+}
+
+
+/* header */
+
+.header{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: transparent !important;
+    position: fixed !important;
+    top: 0;
+    /* z-index: -1; */
+    /* cursor: pointer !important; */
+}
+
+.inner-header a:hover{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+ 
+
+.inner-header{
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 100%;
+    width: 1250px;
+    display: block;
+
+}
+
+.logo-container{
+    color: #000;
+    /* float: right; */
+    height: 100%;
+    display: table;
+    margin-left: 150px;
+    position: relative;
+    left: -40px;
+}
+
+.logo-container h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "proxima-nova";
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Arial' , sans-serif;
+    cursor: pointer;
+    right: 50px;
+    position: relative;
+    letter-spacing: 0.7px;
+}
+.logo-container h2{
+    position: relative;
+    left: -294px;
+    top: 30px !important;
+}
+.logo-container p{
+    font-size:10px ;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0.5px;
+}
+
+
+.logo-container img{
+    height: 45px;
+    position: relative;
+    left: -195px;
+    top: 5px;
+    /* background: transparent; */
+}
+
+
+
+/* body */
+
+.heading{
+    height: 100vh;
+    position: relative;
+    top: -70%;
+    left: 50px;
+    width: 50%;
+}
+
+.heading h3{
+    color: #56595e;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+.heading h1{
+    font-weight: 900;
+    color: #000;
+    font-size: 5rem;
+}
+
+.heading p{
+    color: #56595e;
+    font-size: 20px;
+}
+.heading span{
+    position: relative;
+}
+.heading h5 a{
+    position: relative;
+    top: -33px;
+    left: 190px;
+    font-size:20px ;
+    font-weight: 900;
+    color: #000;
+}
+
+.heading span h4 a{
+    position: relative;
+    font-size:20px ;
+    font-weight: 900;
+    color: #000;
+}
+
+.heading h9{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+/* .img img{
+    position: absolute;
+    height: 80vh;
+    border-radius: 50px;
+    right: -430px;
+    z-index: -1;
+    top: -20px;
+}
+
+.img::after{
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -430px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    box-shadow: inset 200px 0px 250px #ffffff,inset -150px -100px 250px #ffffff;
+
+
+} */
+
+.circle{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 00px);
+    z-index: -1;
+}
+/* title */
+.title{
+    position: relative;
+    top: -700px;
+     left: 50px;
+     cursor: pointer;
+}
+
+.title h3{
+    color: #56595e;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.title h4{
+    position: relative;
+    font-weight: 900;
+    color: #000;
+    font-size: 3rem;
+}
+.container{
+    position: relative;
+    padding-top: 125px;
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(40%,1fr));
+    top: -650px;
+    
+}
+
+.container10{
+    position: absolute;
+    top: -400px;
+} 
+
+.container10 .image{
+    position: absolute;
+    width: 90%; 
+    height: 90vh;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:650px){
+    .container{
+        width: 100%;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(70%,1fr));
+    }
+}
+
+.image{
+    position: relative;
+    width: 90%; 
+    height: 90vh;
+    cursor: pointer;
+}
+
+.image__img{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.image__text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    transition: opacity 0.25s;
+}
+
+.image__text .image__date{
+    padding-bottom: 10px;
+}
+.image__overlay .image__date{
+    padding-bottom: 10px;
+}
+
+
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#0F141EE6 ;
+    color: #ffffff;
+    /* display: flex ; */
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > *{
+    transform: translateY(0);
+}
+
+.image__title{
+    font-size: 20px;
+    font-weight: 900;
+    width: 50%;
+}
+
+.image__study{
+    position: absolute;
+    top: 170px;
+    padding-bottom: 50px !important;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.image__study span{
+    position: absolute;
+    transform: rotate(270deg);
+    font-size: 90px;
+    left: 150px;
+    top: -50px;
+}
+.image__overlay--blur{
+    /* backdrop-filter: blur(3px); */
+}
+
+
+
+@media(max-width:800px){
+
+.container .image{
+    width: 100%;
+}
+    
+.heading{
+    height: 100vh;
+    position: relative;
+    top: -80%;
+    left: 50px;
+    width: 70%;
+    
+}
+
+.heading h3{
+    color: #56595e;
+    font-size: 17px;
+    text-transform: uppercase;
+    filter: invert(1);
+    
+}
+.heading h1{
+    font-weight: 900;
+    color: #000;
+    font-size: 3.5rem;
+    filter: invert(1);
+}
+
+.heading p{
+    color: #56595e;
+    font-size: 20px;
+    filter: invert(1);
+}
+.heading span{
+    position: relative;
+    top: 30px;
+    left: -15px;
+}
+.heading h5 a{
+    position: relative;
+    top: -33px;
+    left: 190px;
+    font-size:15px ;
+    font-weight: 900;
+    color: #000;
+}
+.heading span h9{
+    position: absolute;
+    left: 140px;
+    top: 5px;
+}
+.heading span h4 a{
+    position: relative;
+    font-size:15px ;
+    font-weight: 900;
+    color: #000;
+}
+
+.heading h9{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+
+}
+
+
+@media(max-width:1000){
+    .logo-container{
+        color: #000;
+        /* float: right; */
+        height: 100%;
+        display: table;
+        margin-left: 150px;
+        position: relative;
+        left: -50px !important;
+    }
+}
+
+/* dama */
+
+.footer{
+    position: relative;
+    top: 15rem;
+    bottom:-100rem ;
+    margin-left: 50px;
+}
+ 
+.footer h1{
+    font-size:1.5rem ;
+    font-weight: 900;
+    color: #000;
+    position: relative;
+}
+
+.footer p{
+    width: 100%;
+}
+
+.footer p a{
+   color: #56595e;
+}
+
+.footer .links p {
+    margin-bottom: 2px;
+}
+.footer .ft1 h1::after{
+    content: "";
+    background-color: #000;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 45px;
+    left: 110px;
+} 
+
+.footer .ft h1::after{
+    content: "";
+    background-color: #000;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+hr{
+    position: relative;
+    bottom: -230px;
+}
+.watermark{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    position: relative;
+    bottom: -200px;
+    z-index: -1;
+}
+
+/* .inner-header{
+    margin: 0 auto;
+    height: 100%;
+    width: 1250px;
+    display: block;
+
+} */
+
+.watermark.logo-container{
+    color: #56595e;
+    /* float: right; */
+    height: 100%;
+    display: table;
+    margin-left: 150px;
+}
+
+.watermark .logo-container h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "proxima-nova";
+    font-size: 13px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    cursor: pointer;
+    right: 50px;
+    position: relative;
+    letter-spacing: 0.7px;
+    color: #797a7a;
+}
+
+.watermark .logo-container p{
+    font-size:10px ;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0.5px;
+    color: #797a7a;
+}
+
+.watermark .logo-container h2{
+    position: relative;
+    left: -294px;
+    top: 30px !important;
+    color: #797a7a;
+}
+
+
+.watermark.logo-container img{
+    height: 45px;
+    position: relative;
+    left: -195px;
+    top: 5px;
+}
+
+.proj{
+    position: relative;
+    /* left: -470px; */
+
+}
+.proj h1{
+    position: absolute;
+    bottom: -700px;
+    
+}
+
+.proj .img1{
+    height: 70px;
+    transform: rotate(180deg);
+    right: 10px;
+    position: relative;
+}
+
+.proj .img2{
+    height: 70px;
+    left: 10px;
+    position: relative;
+}
+
+.proj h1 a{
+    color: #000;
+    font-size:30px ;
+}
+
+
+.container10{
+    position: relative;
+    padding: 10px ;
+    width: 100%;
+}
+
+
+
+.judo{
+    top: -600px;
+    left:900px;
+}
+
+.judo h4{
+    font-size: 30px;
+}
+
+.judo span{
+    position: absolute;
+    transform: rotate(270deg);
+    font-size:7rem ;
+    top: -45px;
+    left: 250px;
+}
+
+.sec{
+    position: relative;
+    top: -500px;
+}
+
+@media(max-width:1000px){
+    .judo{
+        top: -600px;
+        left:100px;
+    }
+
+    .main{
+        top: -500px;
+        margin-bottom: 70px;
+        left: 10px !important;
+    }
+    .container10 .image__study{
+        top: 260px;
+    }
+
+    hr{
+        position: relative;
+        bottom: -230px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(min-width:900px){
+        .container10{
+        position: relative;
+        margin: 0 70px;
+    }
+}
+
+
+.main{
+    top: -500px;
+    margin-bottom: 70px;
+    right: 0;
+    left: 30%;
+}
+.main span{
+    position: absolute;
+    transform: rotate(270deg);
+    font-size:7rem ;
+    top: -35px;
+    left: 360px;
+}
+
+  

@@ -1,0 +1,315 @@
+.headerp{
+    background-color: transparent;
+}
+
+/* html {
+    overflow-x: hidden;
+    } */
+ 
+.inner-header{
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 100%;
+    width: 1250px;
+    display: block;
+
+}
+
+.logo-container{
+    color: #000;
+    /* float: right; */
+    height: 100%;
+    display: table;
+    margin-left: 150px;
+}
+
+.logo-container h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "proxima-nova";
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Arial' , sans-serif;
+    cursor: pointer;
+    right: 50px;
+    position: relative;
+    letter-spacing: 0.7px;
+}
+.logo-container h2{
+    position: relative;
+    left: -294px;
+    top: 25px;
+}
+.logo-container p{
+    font-size:10px ;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0.5px;
+}
+
+.logo-container img{
+    height: 45px;
+    position: relative;
+    left: -210px;
+    top: 5px;
+    /* background: transparent; */
+}
+
+.containerk{
+    position: relative;
+    left: 10px;
+    top: 150px;
+}
+
+.containerk p{
+    letter-spacing: 2px;
+    font-size:13px ;
+}
+
+.containerk h2{
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 25px;
+    font-size:2.5rem ;
+}
+.containerk h{
+    color: #56595e;
+    font-size: 20px;
+}
+
+
+.containers {
+    position: relative;
+    left: 50px;
+    top: 15rem;
+}
+
+
+.containers h1{
+    color: #000;
+    font-weight: 900;
+    position: relative;
+}
+
+.containerp {
+    position: relative;
+    left: 50px;
+    top: 20rem;
+    bottom: 15rem;
+}
+
+
+.containerp h1{
+    color: #000;
+    font-weight: 900;
+    /* margin-top: 150px; */
+    position: relative;
+}
+
+.containerp ul li{
+    padding-bottom: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 55rem;
+}
+
+.about{
+    top: -500px;
+    padding-bottom: 70px;
+}
+
+.footer{
+    top: 30rem;
+}
+
+hr{
+    top: 30rem;
+}
+
+.watermark{
+    top: 30rem;
+}
+/* media */
+
+@media(max-width:900px){
+    .containerk{
+        position: relative;
+        left: 10px;
+        top: 100px;
+    }
+
+    .containerk h2{
+        font-weight: 900;
+        color: #000;
+        margin-bottom: 25px;
+        font-size:2rem ;
+    }
+
+    .containers {
+        position: relative;
+        left:10px;
+        top: 10rem;
+    }
+ 
+    .containerp {
+        position: relative;
+        left:10px;
+        top: 15rem;
+    }
+    
+    .title h1{
+        position: absolute;
+        top: 52rem;
+    }
+    .footer{
+        top: 25rem;
+    }
+    .watermark .logo-container h2{
+        left: -277px;
+    }
+
+    .watermark img{
+        left: -195px;
+    }
+    
+    hr{
+        top: 30rem;
+    }
+    
+    .watermark{
+        top: 20rem;
+    }
+   
+}
+ 
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body  {
+    font-family: 'Arial' , sans-serif;
+}
+nav {
+    /* background: #000; */
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 10px;
+    z-index: 20;
+    top: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav .iconsmenu{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background: transparent;
+}
+
+
+nav .iconsmenu a i{
+    color: #fff;
+    font-size: 2rem;
+    padding:10px ;
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+}
+
+nav .iconsmenu a i:hover{
+    color:#017143;
+}
+nav .mainMenu li a{
+    font-weight: 900;
+    /* text-transform: capitalize; */
+    font-size: 3rem !important;
+    padding-bottom:0 !important ;
+}
+
+nav .closeMenu{
+    color: #fff;
+}
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+nav .mainMenu li a:hover {
+    background: #017143;
+}
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+
+nav .logo h1{
+    margin: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    font-weight: 600;
+}
+
+
+@media(max-width: 1800px){
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        color: #017143;
+        font-size: 1.6rem;
+    }
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+    
+}

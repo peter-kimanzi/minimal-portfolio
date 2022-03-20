@@ -1,0 +1,421 @@
+.containerp{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    cursor: pointer;
+}
+
+.containerp .text{
+    margin-bottom: 30px;
+}
+
+.headerp{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+}
+.logo-container h2{
+    position: relative;
+    left: -294px;
+    top: 19px !important;
+}
+
+.logo-container p{
+    font-size:10px ;
+    font-weight: 600;
+    position: relative !important;
+    top: -10px;
+    letter-spacing: 0.5px;
+}
+
+.logo-container img{
+    height: 45px;
+    position: relative;
+    left: -210px;
+    top: 5px;
+    /* background: transparent; */
+}
+
+
+.containerp h1{
+    color: #000;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+p{
+    width: 90%;
+    color: #56595e;
+}
+
+.containerp .list p{
+    margin: 0;
+}
+
+.containerp .images img{
+    padding-bottom: 30px;
+    height: 30rem;
+    width: 35rem;
+}
+.navbuttons{
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+    /* position: fixed; */
+}
+.navbuttons .img1{
+
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    z-index: 20;
+    
+}
+
+.navbuttons .img2{
+
+    height: 30px;
+    position: absolute;
+    right: 70px;
+    z-index: 20;
+    transform: rotate(180deg);
+}
+.proj{
+    position: relative;
+    
+    /* left: -470px; */
+
+}
+
+.ink{
+    top: -550px;
+}
+.proj h1{
+    position: relative;
+    bottom: -700px;
+    
+}
+
+.proj .img1{
+    height: 70px;
+    transform: rotate(180deg);
+    right: 10px;
+    position: relative;
+}
+
+.proj .img2{
+    height: 70px;
+    left: 10px;
+    position: relative;
+}
+
+.proj h1 a{
+    color: #000;
+    font-size:30px ;
+}
+.footer{
+    position: relative;
+    top: 15rem;
+    bottom:-100rem ;
+    margin-left: 50px;
+}
+ 
+.footer h1{
+    font-size:1.5rem ;
+    font-weight: 900;
+    color: #000;
+    position: relative;
+}
+
+.footer p{
+    width: 100%;
+}
+
+.footer p a{
+   color: #56595e;
+}
+
+.footer .links p {
+    margin-bottom: 2px;
+}
+.footer .ft1 h1::after{
+    content: "";
+    background-color: #000;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 45px;
+    left: 110px;
+} 
+
+.footer .ft h1::after{
+    content: "";
+    background-color: #000;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+hr{
+    position: relative;
+    bottom: -230px;
+}
+.watermark{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    position: relative;
+    bottom: -200px;
+    z-index: -1;
+}
+
+/* .inner-header{
+    margin: 0 auto;
+    height: 100%;
+    width: 1250px;
+    display: block;
+
+} */
+
+.watermark.logo-container{
+    color: #56595e;
+    /* float: right; */
+    height: 100%;
+    display: table;
+    margin-left: 150px;
+}
+
+.watermark .logo-container h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "proxima-nova";
+    font-size: 13px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    cursor: pointer;
+    right: 50px;
+    position: relative;
+    letter-spacing: 0.7px;
+    color: #797a7a;
+}
+
+.watermark .logo-container p{
+    font-size:10px ;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0.5px;
+    color: #797a7a;
+}
+
+.watermark .logo-container h2{
+    position: relative;
+    left: -294px;
+    top: 30px !important;
+    color: #797a7a;
+}
+
+
+.watermark.logo-container img{
+    height: 45px;
+    position: relative;
+    left: -195px;
+    top: 5px;
+}
+
+.menu{
+    position: absolute;
+    right: 70px;
+    top: 45px;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+.menu h1 a{
+    color: #000;
+}
+.menu h1{
+    position: relative;
+    font-size: 17px;
+    top: 5px;
+    
+}
+
+.menu span{
+    position: absolute;
+    font-size:30px ;
+    top: -50%;
+    padding-left: 5px;
+}
+
+
+@media(max-width:900px){
+    .containerp .images img{
+        padding-bottom: 30px;
+        height: 30rem;
+        width: 90%;
+        right: 20px;
+        position: relative;
+    }
+
+    .footer .ft{
+        padding-bottom:30px ;
+    }
+
+
+}
+
+@media(min-width:1000px){
+    .proj{
+        position: relative;
+        left: 520px;
+    }
+
+    .proj h1 a{
+        color: #000;
+        font-size:50px ;
+    }    
+
+    /* .watermark .logo-container h2{
+        position: relative;
+        left: -294px;
+        top: 30px !important;
+        color: #797a7a;
+    } */
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body  {
+    font-family: 'Arial' , sans-serif;
+}
+nav {
+    /* background: #000; */
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+   background-color: transparent;
+    right: 10px;
+    z-index: 20;
+    top: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav .iconsmenu{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background: transparent;
+}
+
+
+nav .iconsmenu a i{
+    color: #fff;
+    font-size: 2rem;
+    padding:10px ;
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+}
+
+nav .iconsmenu a i:hover{
+    color:#017143;
+}
+nav .mainMenu li a{
+    font-weight: 900;
+    /* text-transform: capitalize; */
+    font-size: 3rem !important;
+    padding-bottom:0 !important ;
+}
+
+nav .closeMenu{
+    color: #fff;
+}
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+nav .mainMenu li a:hover {
+    background: #017143;
+}
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+
+nav .logo h1{
+    margin: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    font-weight: 600;
+}
+
+
+@media(max-width: 1800px){
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        color: #017143;
+        font-size: 1.6rem;
+    }
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+    
+}
