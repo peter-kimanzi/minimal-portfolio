@@ -6,3 +6,4 @@ Not very complicated. simple design.
 
 ## Technologies used
 * CSS HTML
+* JQUERY
