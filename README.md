@@ -8,3 +8,6 @@ Not very complicated. simple design.
 * CSS HTML
 * JQUERY
 * JavaScript
+
+
+Before using correct big screen responsiveness that's the only error
