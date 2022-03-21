@@ -14,3 +14,4 @@ Before using correct big screen responsiveness that's the only error
 
 
 ## live project can be viewed here
+https://peter-kimanzi.github.io/minimal-portfolio/
